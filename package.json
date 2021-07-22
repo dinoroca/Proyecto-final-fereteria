@@ -1,0 +1,19 @@
+{
+  "name": "bootstrap",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "limpiacss": "purgecss -css *.css --content *.html --output ./res"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.2",
+    "bootstrap-icons": "^1.5.0"
+  },
+  "devDependencies": {
+    "purgecss": "^4.0.3"
+  },
+  "description": ""
+}
